@@ -1,0 +1,84 @@
+body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    position: relative;
+    background-color: rgb(47, 47, 49);
+}
+
+.btn-primary {
+    background-color: rgb(255, 81, 0);
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.btn-primary:hover {
+    background-color: rgb(255, 255, 255) ;
+    color:rgb(255, 81, 0)
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    border-bottom: 4px solid  rgb(255, 81, 0);
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    margin-left: auto;
+    margin-right: 10%;
+    display: inline-block;
+}
+.login label {
+   color: #ff5100;
+}
+
+.login .btn-primary {
+    background-color: rgb(255, 81, 0);
+    font-size: 1rem;
+}
+
+.facebook-anchor {
+    margin-left: 3%;
+}
+
+.facebook {
+    color: rgb(255, 81, 0);
+    font-size: 5rem;
+}
+
+
+
+
+.newsfeed {
+    padding: 3%;
+    text-align: center;
+}
+.newsfeed h2 {
+    text-align: left;
+}
+
+.sign-up {
+    margin-top: 5%;
+}
+
+img {
+    width: 20%;
+    margin-right: 25%;
+}
+
+p {
+    color: white;
+    font-size: 1.3rem;
+}
+
+footer {
+    border-top: 4px solid rgb(255, 81, 0);
+}
+
+footer p{
+    font-size: 2rem;
+}
