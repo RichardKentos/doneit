@@ -24,10 +24,6 @@ let newsfeed = [
 		username: "Mitch",
 		timeline: "Javascript is preeetyy cool!"
 	},
-	{
-		username: "Mamka",
-		timeline: "Som super !"
-	},
 ];
 
 const loginNameInput = document.querySelector("input[type='name']");
